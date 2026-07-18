@@ -12,6 +12,8 @@ be installed with the `skills` CLI, or dropped into your agent's skills director
 | Skill | Description |
 | ----- | ----------- |
 | [`complex-work`](skills/complex-work/SKILL.md) | Orchestrate a complex, multi-phase engineering task from planning through delivery using your coding agent's memory/rules hierarchy and (where available) subagents, with cost-tiered model routing that defaults to the cheapest capable tier and escalates only on evidence. Provider- and tool-agnostic — any LLM, any agentic coding system. |
+| [`optimize-code`](skills/optimize-code/SKILL.md) | Orchestrate a measured code-optimization effort from baseline through delivery — profile first, always seek fewer LOC while keeping every function, explicit DONE-WHEN metrics, cost-tiered model routing. Provider- and tool-agnostic — any LLM, any agentic coding system. |
+| [`secure-code`](skills/secure-code/SKILL.md) | Orchestrate a security-focused effort from threat scoping through remediation — evidence-based findings, severity triage, verify fixes, cost-tiered model routing. Provider- and tool-agnostic — any LLM, any agentic coding system. |
 
 ## Install
 
