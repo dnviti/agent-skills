@@ -11,7 +11,7 @@ be installed with the `skills` CLI, or dropped into your agent's skills director
 
 | Skill | Description |
 | ----- | ----------- |
-| [`complex-work`](skills/complex-work/SKILL.md) | Orchestrate a complex, multi-phase engineering task from planning through delivery using Claude Code's memory hierarchy and subagents, with cost-tiered model routing that defaults to the cheapest capable tier and escalates only on evidence. |
+| [`complex-work`](skills/complex-work/SKILL.md) | Orchestrate a complex, multi-phase engineering task from planning through delivery using your coding agent's memory/rules hierarchy and (where available) subagents, with cost-tiered model routing that defaults to the cheapest capable tier and escalates only on evidence. Provider- and tool-agnostic — any LLM, any agentic coding system. |
 
 ## Install
 
